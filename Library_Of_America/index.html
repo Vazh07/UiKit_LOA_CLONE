@@ -15,6 +15,8 @@
 		.tweet:hover {color: black;}
 		/*Border Top Black*/
 		.btb{border-top: 7px solid #000;}
+		/*Border Bottom Black Small*/
+		.bbbs{border-bottom: 1px solid #aaaaaa;}
 		/*Border Top RED*/
 		.btr{border-top: 7px solid #f42535;}
 		/*Border Sides Black*/
@@ -23,6 +25,7 @@
 			border-left: 1px solid #000;
 			border-right: 1px solid #000;
 		}
+		.link--dark-grey:hover{color:#f42535 !important;}
 	</style>
 </head>
 <body>
@@ -518,7 +521,7 @@
 			<div class="uk-margin-medium-top uk-margin-xlarge-left uk-margin-xlarge-right uk-height-xsmall uk-flex uk-flex-center uk-flex-column">
 				<div class="uk-animation-toggle uk-flex uk-flex-center">
 					<div>
-						<a href="/" title="home">
+						<a href="/" class="link--dark-grey" title="home">
 							<img src="./imgs/svgs/h2.svg" width="120" height="60" uk-svg>
 						</a>
 					</div>
@@ -538,8 +541,8 @@
 							Library of America guides readers in finding and exploring the exceptional 
 							writing that reflects the nation’s history and culture. 
 						</p>
-						<a href="/" title="home">
-							<p>Learn More</p>
+						<a class="uk-link-text bbbs link--dark-grey"  href="/" title="home">
+							<p><span class="bbbs">Learn More</span></p>
 						</a>
 					</span>
 				</div>
@@ -550,11 +553,11 @@
 							From poetry, novels, and memoirs to journalism, crime writing, and science fiction, 
 							the more than 300 volumes published by Library of America are widely recognized as America’s literary canon. 
 						</p>
-						<a href="/" title="home">
-							<p>Browse our books</p>
+						<a class="uk-link-text bbbs link--dark-grey"  href="/" title="home">
+							<p><span class="bbbs">Browse our books</span></p>
 						</a>
-						<a href="/" title="home">
-							<p>Subscribe</p>
+						<a class="uk-link-text link--dark-grey"  href="/" title="home">
+							<p><span class="bbbs">Subscribe</span></p>
 						</a>
 					</span>
 				</div>
@@ -564,8 +567,8 @@
 						<p>
 							With contributions from donors, Library of America preserves and celebrates a vital part of our cultural heritage for generations to come. 
 						</p>
-						<a href="/" title="home">
-							<p>Support our mission</p>
+						<a class="uk-link-text bbbs link--dark-grey" href="/" title="home">
+							<p><span class="bbbs">Support our mission</span></p>
 						</a>
 					</span>
 				</div>
@@ -573,8 +576,111 @@
 		</div>
 	</main>
 	<!--Footer-->
-	<footer>
-
+	<footer class="uk-height-1-1">
+		<div class="uk-height-1-1 uk-width-1-1">
+			<div class="uk-background-muted uk-height-1-1 uk-width-1-1">
+				<div class="uk-background-muted uk-padding uk-panel uk-flex uk-flex-center">
+					<div class="uk-flex uk-flex-column">
+						<b>Sign up for our newsletter, free Story of the Week, and more</b>
+						<input type="email" class="uk-margin uk-width-medium" placeholder="Name@email.com" data-behavior="footer_signup" data-url="/newsletter">
+					</div>	
+					<div class="uk-flex uk-flex-column uk-margin-medium-left">
+						<b>Save 10% on your first order by requesting a free catalog</b>
+						<button href="/catalog-request-form" class="uk-button uk-button-danger uk-margin uk-width-medium">Request Catalog</button>
+					</div>		
+				</div>
+				<div class="uk-divider-icon"></div>
+				<div class="uk-background-muted uk-padding uk-panel uk-flex uk-flex-center">
+					<div class="uk-flex uk-flex-column">
+						<ul class="uk-list uk-link-text">
+							<li><a class="link--dark-grey"><p><b>Books</b></p></a></li>
+							<li><a class="link--dark-grey" href="/books">Browse the Catalog</a></li>
+							<li><a class="link--dark-grey" href="/books/loa_collection">LOA Series</a></li>
+							<li><a class="link--dark-grey" href="/books/collections/6">American Poets Project</a></li>
+							<li><a class="link--dark-grey" href="/books/collections/8">LOA eBook Classics</a></li>
+							<li><a class="link--dark-grey" href="/books/collections/3">Boxed Sets</a></li>
+						</ul>
+					</div>	
+					<div class="uk-flex uk-flex-column uk-margin-medium-left">
+						<ul class="uk-list uk-link-text">
+							<li><a class="link--dark-grey"><p><b>Writers</b></p></a></li>
+							<li><a class="link--dark-grey" href="/writers">Browse the Roster</a></li>
+							<li><a class="link--dark-grey" href="/writers">Writer of the Week</a></li>
+						</ul>
+					</div>	
+					<div class="uk-flex uk-flex-column uk-margin-medium-left">
+						<ul class="uk-list uk-link-text">
+							<li><a class="link--dark-grey"><p><b>News & Views</b></p></a></li>
+							<li><a class="link--dark-grey" href="/news-and-views/categories/16-news">News</a></li>
+							<li><a class="link--dark-grey" href="/news-and-views/categories/17-influences">Influences</a></li>
+							<li><a class="link--dark-grey" href="/news-and-views/categories/18-interviews">Interviews</a></li>
+							<li><a class="link--dark-grey" href="/news-and-views/categories/19-video">Video</a></li>
+							<li><a class="link--dark-grey" href="/news-and-views/categories/20-audio">Audio</a></li>
+							<li><a class="link--dark-grey" href="/news-and-views/categories/21-story-of-the-week">Story of the Week</a></li>
+							<li><a class="link--dark-grey" href="/news-and-views/categories/23-the-moviegoer">The Moviegoer</a></li>
+							<li><a class="link--dark-grey" href="/news-and-views/categories/26-in-the-community">In the Community</a></li>
+						</ul>
+					</div>	
+					<div class="uk-flex uk-flex-column uk-margin-medium-left">
+						<ul class="uk-list uk-link-text">
+							<li><a class="link--dark-grey"><p><b>About</b></p></a></li>
+							<li><a class="link--dark-grey" href="/about">Mission</a></li>
+							<li><a class="link--dark-grey" href="/about/loa-editions">LOA Editions</a></li>
+							<li><a class="link--dark-grey" href="/about/loa-in-the-community">LOA in the Community</a></li>
+							<li><a class="link--dark-grey" href="/about/loa-in-the-classroom">LOA in the Classroom</a></li>
+							<li><a class="link--dark-grey" href="/about/loa-people">People</a></li>
+							<li><a class="link--dark-grey" href="/about/loa-faq">FAQs</a></li>
+						</ul>
+					</div>	
+					<div class="uk-flex uk-flex-column uk-margin-medium-left">
+						<ul class="uk-list uk-link-text">
+							<li><a class="link--dark-grey"><p><b>Subscribe</b></p></a></li>
+							<li><a class="link--dark-grey" href="/subscribe">Current Offers</a></li>
+							<li><a class="link--dark-grey" href="/subscribe/faq">FAQs</a></li>
+							<li><a class="link--dark-grey" href="/subscribe/how-it-works">How it Works</a></li>
+						</ul>
+					</div>	
+					<div class="uk-flex uk-flex-column uk-margin-medium-left">
+						<ul class="uk-list uk-link-text">
+							<li><a class="link--dark-grey"><p><b>Support</b></p></a></li>
+							<li><a class="link--dark-grey" href="/support/annual-fund">Annual Fund</a></li>
+							<li><a class="link--dark-grey" href="/support/project-support">Project Support</a></li>
+							<li><a class="link--dark-grey" href="/support/guardian-of-american-letters">Guardians of American Letters</a></li>
+							<li><a class="link--dark-grey" href="/support/fellows">Fellows of LOA</a></li>
+							<li><a class="link--dark-grey" href="/support/gift_sets">Gift Sets</a></li>
+							<li><a class="link--dark-grey" href="/support/bequests">Bequests</a></li>
+							<li><a class="link--dark-grey" href="/memberships">Membership</a></li>
+						</ul>
+					</div>		
+				</div>
+			</div>
+		</div>
+		<div class="uk-background-secondary uk-light uk-padding uk-panel uk-flex uk-flex-center">
+			
+		<div class="footer-container uk-flex">
+			<div class="site-footer__share-links uk-margin-medium-left">
+				<span href="#">FOLLOW US</span>
+				<a href="/" class="uk-icon-button uk-margin-small-right" uk-icon="icon:twitter"></a>
+				<a href="/" class="uk-icon-button uk-margin-small-right" uk-icon="icon:facebook"></a>
+				<a href="/" class="uk-icon-button uk-margin-small-right" uk-icon="icon:instagram"></a>
+			</div>
+			<div class="site-footer__legal-links uk-margin-medium-left">
+				<ul class="uk-list uk-link-text">
+					<li><a class="link--dark-grey" href="/contact-us">Contact Us</a></li>
+					<li><a class="link--dark-grey" href="/customer-faq">Customer Service</a></li>
+					<li><a class="link--dark-grey" href="/contact-us">Media Inquiries</a></li>
+				</ul>
+			</div>
+			<div class="site-footer__legal-links uk-margin-medium-left">
+				<ul class="uk-list uk-link-text">
+					<li><a class="link--dark-grey" href="/rights-permissions">Rights &amp; Permissions</a></li>
+					<li><a class="link--dark-grey" href="/contact-us">Media Inquiries</a></li>
+				</ul>
+			</div>
+			<div class="site-footer__legal-links uk-margin-medium-left"><span class="site-footer__link-group--legal site-footer__copywrite">© Literary Classics of the United States, Inc. <br><a href="http://www.area17.com/" class="link--dark-grey" title="Area 17">Site by AREA 17</a></span></div>
+		</div>
+	
+		</div>
 	</footer>
 </div>
 </div>

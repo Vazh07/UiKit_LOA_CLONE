@@ -2010,13 +2010,13 @@ select.uk-form-width-xsmall {
  * Danger
  */
 .uk-button-danger {
-  background-color: #f0506e;
+  background-color: #f42535;
   color: #fff;
   border: 1px solid transparent;
 }
 /* Hover */
 .uk-button-danger:hover {
-  background-color: #ee395b;
+  background-color: #f42550;
   color: #fff;
 }
 /* OnClick + Active */
